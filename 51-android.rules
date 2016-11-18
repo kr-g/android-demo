@@ -1,0 +1,78 @@
+#Acer	0502
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0502" , MODE="0666" , GROUP="plugdev"
+#ASUS	0b05
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0b05" , MODE="0666" , GROUP="plugdev"
+#Dell	413c
+SUBSYSTEM=="usb" , ATTR{idVendor}=="413c" , MODE="0666" , GROUP="plugdev"
+#Foxconn	0489
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0489" , MODE="0666" , GROUP="plugdev"
+#Fujitsu	04c5
+SUBSYSTEM=="usb" , ATTR{idVendor}=="04c5" , MODE="0666" , GROUP="plugdev"
+#Fujitsu-Toshiba	04c5
+SUBSYSTEM=="usb" , ATTR{idVendor}=="04c5" , MODE="0666" , GROUP="plugdev"
+#Garmin-Asus	091e
+SUBSYSTEM=="usb" , ATTR{idVendor}=="091e" , MODE="0666" , GROUP="plugdev"
+#Google	18d1
+SUBSYSTEM=="usb" , ATTR{idVendor}=="18d1" , MODE="0666" , GROUP="plugdev"
+#Haier	201E
+SUBSYSTEM=="usb" , ATTR{idVendor}=="201E" , MODE="0666" , GROUP="plugdev"
+#Hisense	109b
+SUBSYSTEM=="usb" , ATTR{idVendor}=="109b" , MODE="0666" , GROUP="plugdev"
+#HP	03f0
+SUBSYSTEM=="usb" , ATTR{idVendor}=="03f0" , MODE="0666" , GROUP="plugdev"
+#HTC	0bb4
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0bb4" , MODE="0666" , GROUP="plugdev"
+#Huawei	12d1
+SUBSYSTEM=="usb" , ATTR{idVendor}=="12d1" , MODE="0666" , GROUP="plugdev"
+#Intel	8087
+SUBSYSTEM=="usb" , ATTR{idVendor}=="8087" , MODE="0666" , GROUP="plugdev"
+#K-Touch	24e3
+SUBSYSTEM=="usb" , ATTR{idVendor}=="24e3" , MODE="0666" , GROUP="plugdev"
+#KT Tech	2116
+SUBSYSTEM=="usb" , ATTR{idVendor}=="Tech" , MODE="0666" , GROUP="plugdev"
+#Kyocera	0482
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0482" , MODE="0666" , GROUP="plugdev"
+#Lenovo	17ef
+SUBSYSTEM=="usb" , ATTR{idVendor}=="17ef" , MODE="0666" , GROUP="plugdev"
+#LG	1004
+SUBSYSTEM=="usb" , ATTR{idVendor}=="1004" , MODE="0666" , GROUP="plugdev"
+#Motorola	22b8
+SUBSYSTEM=="usb" , ATTR{idVendor}=="22b8" , MODE="0666" , GROUP="plugdev"
+#MTK	0e8d
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0e8d" , MODE="0666" , GROUP="plugdev"
+#NEC	0409
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0409" , MODE="0666" , GROUP="plugdev"
+#Nook	2080
+SUBSYSTEM=="usb" , ATTR{idVendor}=="2080" , MODE="0666" , GROUP="plugdev"
+#Nvidia	0955
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0955" , MODE="0666" , GROUP="plugdev"
+#OTGV	2257
+SUBSYSTEM=="usb" , ATTR{idVendor}=="2257" , MODE="0666" , GROUP="plugdev"
+#Pantech	10a9
+SUBSYSTEM=="usb" , ATTR{idVendor}=="10a9" , MODE="0666" , GROUP="plugdev"
+#Pegatron	1d4d
+SUBSYSTEM=="usb" , ATTR{idVendor}=="1d4d" , MODE="0666" , GROUP="plugdev"
+#Philips	0471
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0471" , MODE="0666" , GROUP="plugdev"
+#PMC-Sierra	04da
+SUBSYSTEM=="usb" , ATTR{idVendor}=="04da" , MODE="0666" , GROUP="plugdev"
+#Qualcomm	05c6
+SUBSYSTEM=="usb" , ATTR{idVendor}=="05c6" , MODE="0666" , GROUP="plugdev"
+#SK-Telesys	1f53
+SUBSYSTEM=="usb" , ATTR{idVendor}=="1f53" , MODE="0666" , GROUP="plugdev"
+#Samsung	04e8
+SUBSYSTEM=="usb" , ATTR{idVendor}=="04e8" , MODE="0666" , GROUP="plugdev"
+#Sharp	04dd
+SUBSYSTEM=="usb" , ATTR{idVendor}=="04dd" , MODE="0666" , GROUP="plugdev"
+#Sony	054c
+SUBSYSTEM=="usb" , ATTR{idVendor}=="054c" , MODE="0666" , GROUP="plugdev"
+#Sony-Ericsson	0fce
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0fce" , MODE="0666" , GROUP="plugdev"
+#Sony-Mobile-Communications	0fce
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0fce" , MODE="0666" , GROUP="plugdev"
+#Teleepoch	2340
+SUBSYSTEM=="usb" , ATTR{idVendor}=="2340" , MODE="0666" , GROUP="plugdev"
+#Toshiba	0930
+SUBSYSTEM=="usb" , ATTR{idVendor}=="0930" , MODE="0666" , GROUP="plugdev"
+#ZTE	19d2
+SUBSYSTEM=="usb" , ATTR{idVendor}=="19d2" , MODE="0666" , GROUP="plugdev"
