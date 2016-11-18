@@ -1,0 +1,86 @@
+<html>
+<!DOCTYPE html>
+<head>
+
+<!--style>
+.compass {
+  transform: rotate(153deg);
+  //transform-origin: 100px 100px;
+}
+
+.pitchroll {
+  transform: translate( 10px, -20px);
+  //transform-origin: 100px 100px;
+}
+</style-->
+
+<script type="text/javascript">
+
+var svgsize = 300;
+var svgcoord = svgsize / 2;
+
+function setcoord(nam){
+  document.getElementById(nam).style["transform-origin"] = svgcoord+"px " + svgcoord+"px ";
+}
+
+function north(n) {
+  document.getElementById("compass").style.transform = "rotate(" + n + "deg)";
+}
+
+function pitchroll(p, r) {
+  document.getElementById("pitchroll").style.transform = "translate(" + p + "px, " + r + "px)";
+}
+
+function loadhandler(){
+
+  document.getElementById("svgcontainer").style.height = svgsize + "px";
+  document.getElementById("svgcontainer").style.width = svgsize + "px";
+
+  setcoord("compass");
+  setcoord("pitchroll");
+
+  north(153);
+  pitchroll(10, 20);
+}
+
+</script>
+
+
+
+</head>
+
+<body onload="loadhandler()">
+
+<div>
+<svg id="svgcontainer" height="200px" width="200px">
+
+  <svg>
+    <circle cx="50%" cy="50%" fill="none" r="45%" stroke-width="2%" stroke="black"/>
+  </svg>
+
+  <g class="compass" id="compass">
+    <circle cx="50%" cy="5%" fill="red" r="3%" stroke-width="1" stroke="red"/>
+  </g>
+
+  <g class="pitchroll" id="pitchroll">
+    <line stroke-width="2" stroke="black" x1="50%" x2="50%" y1="40%" y2="60%"/>
+    <line stroke-width="2" stroke="black" x1="40%" x2="60%" y1="50%" y2="50%"/>
+  </g>
+
+  <svg>
+    <line stroke-dasharray="1%, 1%" stroke-width="2" stroke="grey" x1="50%" x2="50%" y1="40%" y2="60%"/>
+    <line stroke-dasharray="1%, 1%" stroke-width="2" stroke="grey" x1="40%" x2="60%" y1="50%" y2="50%"/>
+    <circle cx="50%" cy="50%" fill="none" r="7%" stroke-dasharray="1%, 1%" stroke-width="1" stroke="grey"/>
+    <circle cx="50%" cy="50%" fill="none" r="13%" stroke-dasharray="1%, 1%" stroke-width="1" stroke="grey"/>
+  </svg>
+
+  Sorry, your browser does not support inline SVG.
+
+</svg>
+</div>
+
+
+
+</body>
+</html>
+
