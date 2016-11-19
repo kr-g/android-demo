@@ -17,3 +17,10 @@ read the full article
 https://another-software-development-blog.blogspot.de/2016/11/a-simple-cordova-app-part-1-ui-mock.html
 
 
+
+## compass-app
+
+read the full article
+
+https://another-software-development-blog.blogspot.de/2016/11/a-simple-cordova-app-part-2-draft.html
+
