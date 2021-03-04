@@ -1,3 +1,12 @@
+# REPO ARCHIVED (2021-03-04)
+
+this repo is archived and not maintained longer 
+since demo code is related to an older version
+
+---
+
+
+
 # android-demo
 some demo code from my blog https://another-software-development-blog.blogspot.com
 
